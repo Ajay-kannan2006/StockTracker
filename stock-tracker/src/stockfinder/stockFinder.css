@@ -1,0 +1,120 @@
+.search-box {
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+}
+
+.search-div {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-div button {
+    height: 2.5rem;
+    width: 6rem;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition-duration: 500ms;
+    margin-left: 2rem;
+}
+
+.search-div button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.top-gainers-stocks {
+    display: flex;
+    flex-direction: column;
+    /* padding: 2rem; */
+
+}
+
+.top-gainers-stocks h1 {
+    /* align-self: center; */
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+.top-gainers-stocks h2 {
+    align-self: center;
+}
+
+.default-stocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    /* padding: 1rem; */
+}
+
+.default-card {
+    display: flex;
+    flex-direction: column;
+    /* height: 300px; */
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    justify-content: center;
+    padding: 1rem;
+    transition-duration: 0.7s;
+    /* align-items: center; */
+}
+
+.default-card:hover {
+    scale: 1.03;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.default-card p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+
+/*result cards  */
+
+.result-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+
+}
+
+.result-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    padding: 1rem;
+    transition-duration: 0.7s;
+}
+
+.result-card p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+.result-card h2 {
+    align-self: center;
+}
+
+.result-card:hover {
+    cursor: pointer;
+    scale: 1.03;
+}
