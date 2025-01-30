@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const ResultCard = ({ name, symbol, type, region, marketOpen, marketClose, currency }) => {
     const navigate = useNavigate();
     const redirect = () => {
-        navigate('/dashboard', { state: symbol })
+        navigate('/dashboard')
     }
     return (
         <div className="result-card" onClick={redirect}>

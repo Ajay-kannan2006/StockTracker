@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Defaultcard = ({ ticker, price, change_amount, change_percentage, volume }) => {
     const navigate = useNavigate();
     const redirect = () => {
-        navigate('/dashboard', { state: ticker });
+        navigate('/dashboard');
     }
     return (
         <>

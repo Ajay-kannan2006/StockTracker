@@ -23,7 +23,7 @@ const DashBoard = () => {
     return (
         <div className="dashboard">
             <div className="header-part">
-                <h2 className='header-content' style={{ display: "inline-block" }}>{companyDetails.Name}({companyDetails.Symbol}) </h2>
+                <h2 className='header-content' style={{ display: "inline-block" }}>{mockCompanyDetails.Name}({mockCompanyDetails.Symbol}) </h2>
             </div>
 
             <div className="chart-part part">
@@ -31,10 +31,10 @@ const DashBoard = () => {
             </div>
 
             <div className="overview-part part">
-                <Overview symbol={symbol} price={300} currency={companyDetails.Currency} change={-30} changePercentage={10} />
+                <Overview symbol={mockCompanyDetails.Symbol} price={300} currency={mockCompanyDetails.Currency} change={-30} changePercentage={10} />
             </div>
             <div className="details-part part">
-                <Details name={companyDetails.Name} country={companyDetails.Country} currency={companyDetails.Currency} exchange={companyDetails.Exchange} oficialSite={companyDetails.OfficialSite} Industry={companyDetails.Industry} />
+                <Details name={mockCompanyDetails.Name} country={mockCompanyDetails.Country} currency={mockCompanyDetails.Currency} exchange={mockCompanyDetails.Exchange} oficialSite={companyDetails.OfficialSite} Industry={companyDetails.Industry} />
             </div>
         </div>
     );
